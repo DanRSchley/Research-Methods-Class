@@ -59,6 +59,17 @@
       width: 100%;
       margin-top: 2rem;
     }
+    .resource-list {
+      margin-top: 1rem;
+      padding-left: 1rem;
+    }
+    .resource-list li {
+      margin: 0.5rem 0;
+    }
+    .resource-list a {
+      color: #003366;
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -75,11 +86,24 @@
 
   <main>
     <section>
-        Welcome to our workshop in measurement, hypothesis testing, experimentation, and causal inference. Traditionally, these topics are taught in very different courses, and as such, have different terminologies. The goal of this workshop is to cover the core competences in each topic within a singular framework and a common lexicon. Importantly, workshop participants will learn that the end goal of causal inference is necessarily predicated on the assumptions required in hypothesis testing in experimental (and non-experimental) settings. And, the assumptions for hypothesis testing are predicated on measurement assumptions derived from psychometrics. We will work through a common set of problems so as to concretize these fundamental methodological tools, tying together our understanding of measurement, hypothesis testing, and causal inference. For most topics in the course, I will provide an experimental example (i.e., to concretize the principle for workshop participants that primarily use experiments) and a secondary-data example (i.e., to concretize the principles for workshop participants that use a wide variety of econometric techniques). We will cover many of the common pitfalls in experimental and non-experimental research.</p>
-Workshop participants should already have experience with a range of topics related to experiments commonly used in the behavioral sciences. Please see the list of prerequisite knowledge topics appended to the end of this document. While there are several terms in the prerequisites that are also in the syllabus, the reason is that this course will be taught at an advanced level and I aim to improve the participant’s understanding of these foundational terms. For instance, while a workshop participant may have a basic understanding of “reliability” and “validity” at the beginning of the course, they will learn that the interpretations of reliability and validity depend on an analysis of the object being measured conditional on an analysis of the measurement device. That is, the workshop will aim to concretize and advance participants’ understanding of these core terms in behavioral research.</p> 
-Inherently, science is based on combining our observable empirical observations with a set of assumptions to infer something about latent and/or generalized processes. As such, we must have a critical understanding of the properties of our measured and manipulated observables. We must also be astutely aware of both the explicit and the tacit/implicit assumptions we make as researchers; many errors in research are due to researcher not sufficiently considering the implications of these tacit assumptions. By the end of the course, workshop participants will be able to engage in an exercise whereby they can articulate most/all of the explicit and implicit assumptions made in a given published paper. Being able to critically evaluate these assumptions is extremely illuminating regarding the interpretation and generalization of the observable data.
-
+      <p>
+        Welcome to our workshop in measurement, hypothesis testing, experimentation, and causal inference. Traditionally, these topics are taught in very different courses, and as such, have different terminologies. The goal of this workshop is to cover the core competences in each topic within a singular framework and a common lexicon. Importantly, workshop participants will learn that the end goal of causal inference is necessarily predicated on the assumptions required in hypothesis testing in experimental (and non-experimental) settings. And, the assumptions for hypothesis testing are predicated on measurement assumptions derived from psychometrics. We will work through a common set of problems so as to concretize these fundamental methodological tools, tying together our understanding of measurement, hypothesis testing, and causal inference. For most topics in the course, I will provide an experimental example (i.e., to concretize the principle for workshop participants that primarily use experiments) and a secondary-data example (i.e., to concretize the principles for workshop participants that use a wide variety of econometric techniques). We will cover many of the common pitfalls in experimental and non-experimental research.
       </p>
+      <p>
+        Workshop participants should already have experience with a range of topics related to experiments commonly used in the behavioral sciences. Please see the list of prerequisite knowledge topics appended to the end of this document. While there are several terms in the prerequisites that are also in the syllabus, the reason is that this course will be taught at an advanced level and I aim to improve the participant’s understanding of these foundational terms. For instance, while a workshop participant may have a basic understanding of “reliability” and “validity” at the beginning of the course, they will learn that the interpretations of reliability and validity depend on an analysis of the object being measured conditional on an analysis of the measurement device. That is, the workshop will aim to concretize and advance participants’ understanding of these core terms in behavioral research.
+      </p>
+      <p>
+        Inherently, science is based on combining our observable empirical observations with a set of assumptions to infer something about latent and/or generalized processes. As such, we must have a critical understanding of the properties of our measured and manipulated observables. We must also be astutely aware of both the explicit and the tacit/implicit assumptions we make as researchers; many errors in research are due to researcher not sufficiently considering the implications of these tacit assumptions. By the end of the course, workshop participants will be able to engage in an exercise whereby they can articulate most/all of the explicit and implicit assumptions made in a given published paper. Being able to critically evaluate these assumptions is extremely illuminating regarding the interpretation and generalization of the observable data.
+      </p>
+    </section>
+
+    <section>
+      <h2>Resources for Modules 1, 2, and 3</h2>
+      <ul class="resource-list">
+        <li><a href="https://www.dropbox.com/scl/fo/pnq636hpbhepl3zhi170j/AALYPGOcRh53gaq6sHOmadc/Three%20Module%20Sequence%20on%20Research%20Methods/Module%201-%20Measurement?rlkey=ilfz4yd44amnrtob6xncoz1d3&dl=1" target="_blank">Module 1: Measurement</a></li>
+        <li><a href="https://www.dropbox.com/scl/fo/pnq636hpbhepl3zhi170j/AFDll2Be5aEuqS5YpHnr2pE/Three%20Module%20Sequence%20on%20Research%20Methods/Module%202-%20Hypothesis%20Testing?rlkey=ilfz4yd44amnrtob6xncoz1d3&dl=1" target="_blank">Module 2: Hypothesis Testing and Experimentation</a></li>
+        <li><a href="https://www.dropbox.com/scl/fo/pnq636hpbhepl3zhi170j/ANlshyRXFXaij2FT1Zu-OAQ/Three%20Module%20Sequence%20on%20Research%20Methods/Module%203-%20Causal%20Inference?rlkey=ilfz4yd44amnrtob6xncoz1d3&dl=1" target="_blank">Module 3: Causal Inference</a></li>
+      </ul>
     </section>
   </main>
 
