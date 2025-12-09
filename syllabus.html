@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Syllabus – Advanced Research Methods</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+    nav ul li a {
+      color: #cce6ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      color: white;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      font-size: 1.8rem;
+    }
+    h2, h3, h4 {
+      color: #003366;
+    }
+    ul {
+      margin-left: 1.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #003366;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Advanced Research Methods – Syllabus</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resources.html">Course Materials</a></li>
+        <li><a href="prerequisites.html">Prerequisites</a></li>
+        <li><a href="syllabus.html">Syllabus</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h3>Syllabus overview</h3>
+
+    <p>
+      The workshop has three linked modules. Each one uses paired examples from lab and field experiments and from secondary or observational data to show how measurement, design, and causal inference fit together into a single pipeline.
+    </p>
+
+    <h4>Module 1 – Introduction to Measurement</h4>
+
+    <ul>
+      <li>State of measurement practice in psychology, consumer research, and applied work; why measurement is often the weakest link.</li>
+      <li>What measurement is in a formal sense and why most constructs of interest are latent rather than directly observed.</li>
+      <li>Core properties of good measurement:
+        reliability (test–retest, inter-rater, internal consistency) and validity
+        (content, concurrent, predictive, convergent, discriminant, ecological).
+      </li>
+      <li>Classical Test Theory and the X = T + E decomposition; why Cronbach’s alpha is a limited proxy for reliability and depends on strong assumptions.</li>
+      <li>Random versus systematic measurement error, heterogeneous error, and how both influence estimates in experiments and in secondary data.</li>
+      <li>“Unicorn measurement” and “unicorn studies”: when scales and designs look good psychometrically but are really tapping lay theories or composites of several constructs.</li>
+      <li>Convergent and discriminant validity revisited, including examples that show how validity assumptions interact with theory evaluation.</li>
+      <li>Measurement invariance across groups or occasions (item shift and construct shift) and what it means for comparing means and effects.</li>
+      <li>Latent classes, mixture structure, and outlier detection:
+        basic clustering and density-based approaches, and how Simpson’s paradox appears when within-cluster and between-cluster patterns diverge.
+      </li>
+    </ul>
+
+    <h4>Module 2 – Experimentation and Hypothesis Testing</h4>
+
+    <ul>
+      <li>The exclusion restriction as the central assumption in experiments:
+        distinguishing constant error from systematic extraneous variables.
+      </li>
+      <li>Demand characteristics, experimenter expectations, and sparse information; how blinding, double-blinding, and careful interface design help.</li>
+      <li>Order effects and counterbalancing in within-subject designs; when counterbalancing is and is not sufficient.</li>
+      <li>History and cohort effects in both experiments and secondary data; links to heterogeneous treatment effects and conditional average treatment effects.</li>
+      <li>Systematic workflow for thinking about extraneous variables:
+        mapping conceptual X and Y, defining convergent and discriminant evidence, and using literature review to anticipate correlated constructs.</li>
+      <li>Measurement invariance as a tacit assumption in experiments; case study on different “types of happiness” in experiential versus material consumption and in gain versus loss frames.</li>
+      <li>Experimental and research designs:
+        fully randomized designs, between versus within, factorial and Latin-square designs, orthogonal designs, and large metastudy designs.
+      </li>
+      <li>Null hypothesis significance testing:
+        null and alternative hypotheses, p values, Type I and II errors, effect sizes, and power, with an emphasis on interpretation rather than mechanical rules.</li>
+      <li>Outliers, principled exclusion, and the consequences of researcher degrees of freedom and p-hacking for inference and replicability.</li>
+      <li>Censored and survival-type outcomes and when survival analysis tools become relevant even for behavioral data.</li>
+    </ul>
+
+    <h4>Module 3 – Causal Inference</h4>
+
+    <ul>
+      <li>What causality means without circular language; causal chains, order of links, and attenuation of effects along a chain.</li>
+      <li>Data-generating mechanisms as “roots, trunk, branches, and leaves” and why causal inference is about modeling these mechanisms, not just fitting data.</li>
+      <li>Reichenbach’s common cause principle; patterns consistent with causes, common causes, colliders, and no direct causal link.</li>
+      <li>Conditional independence, collider structures, and collider bias:
+        worked examples with dice, wardrobe choices, hospital selection, and the obesity paradox.</li>
+      <li>Rubin’s potential outcomes framework:
+        potential outcomes, SUTVA, ignorability, and selection processes such as undercoverage, self-selection, survivorship, attrition, and exclusion.</li>
+      <li>Pearl’s graphical framework:
+        DAGs, backdoor paths and backdoor criteria, front-door identification, and how mediation, moderation, and confounding appear in graphical form.</li>
+      <li>Design-based estimation:
+        experiments as counterfactual tools, regression adjustment, inverse probability weighting, covariate matching, and propensity score matching, plus doubly robust estimation.</li>
+      <li>Difference-in-differences, synthetic controls, and regression discontinuity:
+        basic structure, identifying assumptions, and links back to experimental thinking and measurement assumptions.</li>
+      <li>“Statistical mediation” as a causal claim:
+        simulating different true causal graphs, seeing when regression-based mediation succeeds or fails, and when experiments are better tools for process evidence.</li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dan R. Schley</p>
+  </footer>
+</body>
+</html>
